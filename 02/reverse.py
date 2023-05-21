@@ -1,6 +1,6 @@
 from typing import Any, MutableSequence
 
-#
+#뮤터블 시퀀스 a의 원소를 역순으로 정렬
 def reverse_array(a: MutableSequence) -> None:
     n = len(a)
     for i in range(n // 2):
