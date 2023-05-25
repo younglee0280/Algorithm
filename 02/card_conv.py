@@ -19,7 +19,7 @@ if __name__ == '__main__':
                 break
         
         while True:
-            cd = int(input('어떤 진수로 변환할까요? :')
+            cd = int(input('어떤 진수로 변환할까요? :'))
             if 2 <= cd <= 36:
                 break
         
